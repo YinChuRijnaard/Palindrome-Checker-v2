@@ -43,7 +43,7 @@ export const App = () => {
           placeholder="Type something..."
         />
 
-        <div className="space-x-8 text-slate-900">
+        <div className="mx-auto flex w-96 justify-between text-slate-900">
           <button
             onClick={checkWord}
             className="border-2 border-neutral-200 bg-neutral-200 p-2 px-6 lg:hover:bg-slate-900 lg:hover:text-red-600"
@@ -58,7 +58,7 @@ export const App = () => {
           </button>
         </div>
 
-        <div className="mx-8 border-2 border-neutral-200 p-2">
+        <div className="mx-auto w-96 border-2 border-neutral-200 p-2">
           {output ? (
             <p>
               {isPalindrome
